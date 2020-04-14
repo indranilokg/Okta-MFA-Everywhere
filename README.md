@@ -1,5 +1,18 @@
 # Okta Factor Demo
 
+## Description
+
+Okta MFA Everywhere is a sample application that uses newer features of Okta to perform
+a Multifactor Authentication flow to a Specific Application. Sometimes Customers of Okta
+use their own Identity System to perform Primary Authentiation, but they want to add
+Multifactor to an in-house built application, and leverage Okta Sign-on Policy to a
+specific application.
+
+## Benefits
+
+The benefit of this approach is that the Multifactor Authentication Step can be performed
+entirely from the Browser, and no Server Side code is required, so no Okta API KEY either.
+
 ## Project setup
 ```
 npm install
