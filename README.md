@@ -13,6 +13,11 @@ specific application.
 The benefit of this approach is that the Multifactor Authentication Step can be performed
 entirely from the Browser, and **no Server Side code** is required and no **Okta API KEY** is needed.
 
+## Installation
+```
+git clone https://github.com/indranilokg/Okta-MFA-Everywhere.git
+```
+
 ## Project setup
 ```
 npm install
