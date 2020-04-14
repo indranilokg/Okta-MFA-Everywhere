@@ -11,7 +11,7 @@ specific application.
 ## Benefits
 
 The benefit of this approach is that the Multifactor Authentication Step can be performed
-entirely from the Browser, and no Server Side code is required, so no Okta API KEY either.
+entirely from the Browser, and no Server Side code is required and no Okta API KEY is needed.
 
 ## Project setup
 ```
