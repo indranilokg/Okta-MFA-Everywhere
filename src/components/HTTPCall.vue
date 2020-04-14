@@ -28,6 +28,12 @@
 
           <v-list-item>
             <v-list-item-content>
+              User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-content>
               Content-Type: text/plain
             </v-list-item-content>
           </v-list-item>
