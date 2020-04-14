@@ -1,0 +1,58 @@
+<template>
+  <v-container fluid>
+    <v-card>
+      <v-card-text>
+        <v-divider></v-divider>
+        <v-list dense>
+          <v-list-item>
+            <v-list-item-content>
+              {{ mode }} {{ resource }} HTTP/1.1
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-content> Host: {{ baseurl }} </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-content>
+              Accept: application/json
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-content>
+              Content-Type: application/json
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-content>
+              Content-Type: text/plain
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-content>
+              {{ payload }}
+            </v-list-item-content>
+          </v-list-item>
+        </v-list>
+      </v-card-text>
+    </v-card>
+  </v-container>
+</template>
+
+<script>
+export default {
+  name: "HTTPCall",
+
+  props: {
+    mode: String,
+    resource: String,
+    payload: Object,
+    baseurl: String
+  }
+};
+</script>
+
