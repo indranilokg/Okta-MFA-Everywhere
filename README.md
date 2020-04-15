@@ -23,6 +23,13 @@ git clone https://github.com/indranilokg/Okta-MFA-Everywhere.git
 npm install
 ```
 
+* From the project root folder, copy `env.example` to `.env`
+* Change the value of `VUE_APP_OKTA_BASE_URL` in the `.env` to point to your Okta org
+```
+VUE_APP_OKTA_BASE_URL=https://your-okta-org.okta[preview].com
+```
+
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
