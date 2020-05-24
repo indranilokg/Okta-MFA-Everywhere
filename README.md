@@ -8,6 +8,12 @@ use their own Identity System to perform Primary Authentiation, but they want to
 Multifactor to an in-house built application, and leverage Okta **Sign-on Policy** to a
 specific application.
 
+## Sites
+
+- [Blog](https://oktablog.twisec.com/2020/05/24/policy-aware-mfa/) - Design Pattern - Adaptive Policy Aware Step-up MFA
+- [Demonstration](https://www.youtube.com/watch?v=u5p0bF4Hcc0)
+- [Live Example](https://oktamfaeverywhere.herokuapp.com/) 
+
 ## Benefits
 
 The benefit of this approach is that the Multifactor Authentication Step can be performed
